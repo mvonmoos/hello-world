@@ -1,12 +1,9 @@
 $(document).ready(function(){
     $("button").click(function(){
-        $("#MAKETHESUPERCHANGE").fadeToggle();
-        $("#MAKETHESUPERCHANGE").fadeToggle("slow");
-        $("#MAKETHESUPERCHANGE").fadeToggle(3000);
-    });
-	
-	$("experimental").click(function(){
+        $("#mainPanel").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(3000);
         alert('hello');
-		alert('hello2');
+	      alert('hello2');
     });
 });
