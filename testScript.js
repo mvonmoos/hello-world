@@ -6,8 +6,7 @@ $(document).ready(function(){
     });
 	
 	$("experimental").click(function(){
-        $("#123").fadeToggle();
-        $("#123").fadeToggle("slow");
-        $("#123").fadeToggle(3000);
+        alert('hello');
+		alert('hello2');
     });
 });
