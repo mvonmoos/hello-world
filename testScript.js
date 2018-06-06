@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$("experimental").click(function(){
+	$("anotherSelector").click(function(){
         alert('hello');
 	alert('hello2');
     });
