@@ -1,6 +1,9 @@
 $(document).ready(function(){
-	$("anotherSelector").click(function(){
+    $("button").click(function(){
+        $("#mainPanel").fadeToggle();
+        $("#div2").fadeToggle("slow");
+        $("#div3").fadeToggle(3000);
         alert('hello');
-	alert('hello2');
+	      alert('hello2');
     });
 });
